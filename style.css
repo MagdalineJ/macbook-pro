@@ -1,0 +1,60 @@
+/* font decoration */
+body{
+    font-family: 'Poppins', 'Arial', 'Helvetica', sans-serif sans-serif;
+}
+/* deviding the picture from dashboard */
+.grid-container{
+    
+    display:grid;
+    grid-template-columns:auto auto;
+    grid-template-rows:auto;
+    margin:80px;
+}
+ #image{
+     width:70%;
+     margin: 20px;
+}
+/* dashboard section */
+.table-data{
+    border:1px rgba(84, 71, 71, 0.274) solid;
+    border-radius:3px;
+    padding:5px;
+}
+.table-data:hover{
+    border:2px rgba(110, 106, 106, 0.274) solid;
+    border-radius:5px;
+    color:white;
+    background-color:black;
+    padding:5px;
+}
+.hr{
+    background-color:rgb(231, 214, 214);
+    height:1px;
+    border:none;
+}
+#special-hr{
+    background-color: black;
+    height:1px;
+}
+button{
+    color:white;
+    background-color: red;
+    border:none;
+    width:60px;
+    height:25px;
+    border-radius: 5px;
+}
+input{
+    height:20px;
+}
+footer{
+    text-align: center;
+}
+/* making responsive */
+@media screen and (max-width:550px) {
+    .grid-container{
+        display:block;
+         grid-template-rows:auto auto;
+    }
+    
+}
